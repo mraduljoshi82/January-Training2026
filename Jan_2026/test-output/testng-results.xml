@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-27T12:03:08 IST" name="Default suite" finished-at="2026-01-27T12:03:58 IST" duration-ms="49668">
+  <suite started-at="2026-01-28T11:22:08 IST" name="Default suite" finished-at="2026-01-28T11:22:29 IST" duration-ms="21662">
     <groups>
     </groups>
-    <test started-at="2026-01-27T12:03:08 IST" name="Default test" finished-at="2026-01-27T12:03:58 IST" duration-ms="49668">
-      <class name="selenium.Testng_test_factory">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:08 IST" name="beforeSuite" finished-at="2026-01-27T12:03:08 IST" duration-ms="12" status="PASS">
+    <test started-at="2026-01-28T11:22:08 IST" name="Default test" finished-at="2026-01-28T11:22:29 IST" duration-ms="21662">
+      <class name="selenium.TC_Testng">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:08 IST" name="beforeSuite" finished-at="2026-01-28T11:22:08 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:08 IST" name="beforeTest" finished-at="2026-01-27T12:03:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:08 IST" name="beforeTest" finished-at="2026-01-28T11:22:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:08 IST" name="beforeClass" finished-at="2026-01-27T12:03:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:08 IST" name="beforeClass" finished-at="2026-01-28T11:22:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:08 IST" name="beforeMethod" finished-at="2026-01-27T12:03:13 IST" duration-ms="5093" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:08 IST" name="beforeMethod" finished-at="2026-01-28T11:22:10 IST" duration-ms="2704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:13 IST" name="f" data-provider="dp" finished-at="2026-01-27T12:03:40 IST" duration-ms="26398" status="PASS">
+        <test-method signature="f(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:10 IST" name="f" data-provider="dp" finished-at="2026-01-28T11:22:27 IST" duration-ms="16576" status="PASS">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+            <param index="1">
               <value>
                 <![CDATA[Admin]]>
               </value>
             </param>
-            <param index="1">
+            <param index="2">
               <value>
                 <![CDATA[admin123]]>
               </value>
@@ -39,47 +44,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:40 IST" name="afterMethod" finished-at="2026-01-27T12:03:40 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:27 IST" name="afterMethod" finished-at="2026-01-28T11:22:29 IST" duration-ms="2319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:40 IST" name="beforeMethod" finished-at="2026-01-27T12:03:42 IST" duration-ms="1720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:42 IST" name="f" data-provider="dp" finished-at="2026-01-27T12:03:57 IST" duration-ms="15045" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:57 IST" name="afterMethod" finished-at="2026-01-27T12:03:58 IST" duration-ms="804" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:58 IST" name="afterClass" finished-at="2026-01-27T12:03:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:29 IST" name="afterClass" finished-at="2026-01-28T11:22:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:58 IST" name="afterTest" finished-at="2026-01-27T12:03:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:29 IST" name="afterTest" finished-at="2026-01-28T11:22:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:selenium.Testng_test_factory@1a677343]" started-at="2026-01-27T12:03:58 IST" name="afterSuite" finished-at="2026-01-27T12:03:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:selenium.TC_Testng@2925bf5b]" started-at="2026-01-28T11:22:29 IST" name="afterSuite" finished-at="2026-01-28T11:22:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- selenium.Testng_test_factory -->
+      </class> <!-- selenium.TC_Testng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
