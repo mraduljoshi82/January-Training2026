@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAPI_testing.Get_user_2">
+      <class name="com.orhrm.tests.NewTest01">
         <methods>
-          <include name="getuser2"/>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="searchEmployeeInPIM"/>
+          <include name="initReport"/>
         </methods>
-      </class> <!-- restAPI_testing.Get_user_2 -->
+      </class> <!-- com.orhrm.tests.NewTest01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
